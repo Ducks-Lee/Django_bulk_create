@@ -303,7 +303,7 @@ print(f"데이터 적재 시간: {end_time - start_time:.4f}초")
 print(Book.objects.count())
 ```
 
-위 스크립트를 각각 3회 실행하여 평균값을 낸 결과, bulk_create는 0.0293초, create는 2.0666초로 소요 시간에서 약 70배의 차이가 났다.
+위 스크립트를 각각 3회 실행하여 평균값을 낸 결과, bulk_create는 0.0293초, create는 2.0666초로 소요 시간에서 약 70배의 차이가 났습니다..
 
 ---
 
